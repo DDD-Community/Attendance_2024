@@ -9,6 +9,7 @@ import Foundation
 
 public enum ImageAsset: String {
   
+  //MARK: - Navigation
   case mangeMentProfile
   case appLogo
   case qrCode
@@ -20,6 +21,7 @@ public enum ImageAsset: String {
   case arrow_down
   case arrow_up
   case editEvent
+  case user
   
   //MARK: - 소셜로그인 버튼
   case appleLogin
