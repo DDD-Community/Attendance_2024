@@ -23,11 +23,13 @@ public enum ImageAsset: String {
   case editEvent
   case user
   
-  //MARK: - 소셜로그인 버튼
+  // MARK: - 소셜로그인 버튼
+  
   case appleLogin
   case googleLogin
   
-  //MARK: - 회원가입
+  // MARK: - 회원가입
+  
   case backButton
   case error
   case close
@@ -36,6 +38,9 @@ public enum ImageAsset: String {
   case activeSelectPart
   case acitveSelectTeam
   
-  
   case empty
+  
+  // MARK: - 멤버 출석 현황
+  
+  case danger
 }
