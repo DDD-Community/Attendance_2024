@@ -30,7 +30,7 @@ public struct CustomDatePickerShortText: View {
                     .pretendardFont(family: .Regular, size: 17)
                     .foregroundStyle(isDateSelected ? .staticWhite : .gray600)
             } else {
-                Text(Date.formattedDateTimeText(date: selectedDate))
+                Text(selectedDate.formattedDateTimeText(date: selectedDate))
                     .pretendardFont(family: .Regular, size: 17)
                     .foregroundStyle(isDateSelected ? .staticWhite : .gray600)
             }
