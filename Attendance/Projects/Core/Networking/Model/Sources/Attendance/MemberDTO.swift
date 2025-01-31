@@ -13,6 +13,7 @@ public struct MemberDTO: Codable, Equatable {
   public var memberType: MemberType
   public var manging: Managing
   public var memberTeam: SelectTeam
+  
   public var name: String
   public var roleType: SelectPart
   public var createdAt: Date
